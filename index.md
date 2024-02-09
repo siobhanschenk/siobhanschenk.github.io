@@ -5,7 +5,7 @@
   <p>I am persuing my PhD in Botany at the University of British Columbia in the <a href = "https://www.zoology.ubc.ca/~parfrey/parfrey_lab/" target="_blank">Parfrey lab</a>. I am passionate about chllenging established asusmptions about how kelps wil respond to climate change and data science, specifically data accesibility and reproducibility.</p>
   <h3>Thesis questions</h3>
   <ol>
-  <li>How does salinity alter the microbiome of sugar kelp (*Saccharina latissima*)?</li>
+  <li>How does salinity alter the microbiome of sugar kelp (<em>Saccharina latissima</em>)?</li>
   <li>Characterizing kelp diseases.</li>
   <li>How do kelps aquire their microbiome in the wild and throughout the production process?</li>
 </ol>
@@ -13,7 +13,7 @@
   <h3>Other Projects</h3>
     <ol>
   <li>Gathering baseline macoralgae data at an unban intertidal site.</li>
-  <li>Describing the bacterial and microeukaryotic community of Eelgrass (*Zostera marina*) leaves</li>
+  <li>Describing the bacterial and microeukaryotic community of Eelgrass (<em>Zostera marina</em>) leaves</li>
 </ol>
 
   <h3>Publications</h3>
