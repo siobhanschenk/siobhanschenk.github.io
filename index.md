@@ -17,7 +17,7 @@
 </ol>
 
   <h3>Publications</h3>
-  See my <a href="https://scholar.google.com/citations?user=i7KHeTgAAAAJ&hl=en" target="_blank>Google Scholar page</a> for the most up to date list. 
+  See my <a href="https://scholar.google.com/citations?user=i7KHeTgAAAAJ&hl=en" target="_blank">Google Scholar page</a> for the most up to date list. 
 
   <h2>Community Engagement</h2>
 
