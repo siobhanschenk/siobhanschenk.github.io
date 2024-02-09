@@ -13,7 +13,7 @@
   <h3>Other Projects</h3>
     <ol>
   <li>Gathering baseline macoralgae data at an unban intertidal site.</li>
-  <li>Describing the bacterial and microeukaryotic community of Eelgrass (<em>Zostera marina</em>) leaves</li>
+  <li>Describing the bacterial and microeukaryotic community of Eelgrass (<em>Zostera marina</em>) leaves.</li>
 </ol>
 
   <h3>Publications</h3>
