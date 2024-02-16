@@ -45,9 +45,7 @@
 
 <h3>Publications</h3>
 
-See my <a href="https://scholar.google.com/citations?user=i7KHeTgAAAAJ&hl=en" target="_blank">Google Scholar page</a> for the most up to date list. If you are not able to access a publication for any reason, please feel free to email me (sschenk at mail.ub.ca) and I will send it to you. 
-
-<br>
+<p>See my <a href="https://scholar.google.com/citations?user=i7KHeTgAAAAJ&hl=en" target="_blank">Google Scholar page</a> for the most up to date list. If you are not able to access a publication for any reason, please feel free to email me (sschenk at mail.ub.ca) and I will send it to you. </p>
 
 <h2>Triathlon</h2>
 <p>I really enjoy being active and being outside. Triathlon is a great sport because it combines both of those! I have competed in the 2022 Vancouver Triathlon (Standard Distance), the 2023 Victoria half-Ironman, and I am on the <a href='https://recreation.ubc.ca/sport-clubs/triathlon-sc/' target="_blank">2023-2024 UBC Triathlon Sports Club team</a>. </p>
