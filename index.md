@@ -40,7 +40,7 @@
 
 <ol>
 
-<li>How does salinity alter the microbiome of sugar kelp (<em>Saccharina latissima</em> (sugar kelp)? \*Currently available as a pre-print on <a href='https://www.biorxiv.org/content/10.1101/2023.12.07.570704v1' target="_blank">BioRXiv</a>.</li>
+<li>How does salinity alter the microbiome of sugar kelp (<em>Saccharina latissima</em> (sugar kelp)? *Currently available as a pre-print on <a href='https://www.biorxiv.org/content/10.1101/2023.12.07.570704v1' target="_blank">BioRXiv</a>.</li>
 
 <li>How do kelps acquire their microbiome in the wild and throughout the production process?</li>
 
@@ -57,9 +57,5 @@
 <p>I really enjoy being active and being outside. Triathlon is a great sport because it combines both of those! I have competed in the 2022 Vancouver Triathlon (Standard Distance), the 2023 Victoria half-Ironman, and I am on the <a href='https://recreation.ubc.ca/sport-clubs/triathlon-sc/' target="_blank">2023-2024 UBC Triathlon Sports Club team</a>.</p>
 
 </body>
-
-<footer>
-
-</footer>
 
 </html>
