@@ -3,7 +3,6 @@
 <body>
 
 <h1>About me</h1>
-For more details about the topics below, see the dedictated section pages.
 
 <h2>Data Science and Open Data Access</h2>
 <p>A lot of research time and money is spent collecting data. However these data are often lost, not useable due to poor reccord keeping/being behind a paywall, or the analysis cannot be replicated. I am determined to change this though my own work and hope to help others do the same.</p>
