@@ -29,7 +29,7 @@
 
 <h2>Kelps and Microbial Ecology</h2>
 <p>Kelps are vital for the health of temperate coastlines, privinding habitat, food, and modifying water conditions within their canopy. Additionally, kelp farming is a gorwing industry, already worth billions of dollars anually. However, wild and farmed kelps are vulnerable to climate change. Thus, these valuable services kelp provide are at risk.</p>
-<p>Microbes, bacteria in particular, have been used as a toolkit to increase terrrestiral crop resistance to unfavourable conditions for a logn time now, but we have a much more limited understanding of the bacterial community of kelps and other marine life than in terrestrial systems.</p>
+<p>Microbes, bacteria in particular, have been used as a toolkit to increase terrestiral crop resistance to unfavourable conditions for a logn time now, but we have a much more limited understanding of the bacterial community of kelps and other marine life than in terrestrial systems.</p>
 <p>Through my PhD thesis work in the <a href = "https://www.zoology.ubc.ca/~parfrey/parfrey_lab/" target="_blank">Parfrey lab</a>, I am directly addressing this lack of understanding by conducting highly replicated lab and field studies and partnering with the kelp growing industry. I am passionate about chllenging established asusmptions about how kelps wil respond to climate change. I pull in other researchers datasets to stress test my own findings and work in R to produce hihgly replicable and accesible data analysis pipelines.</p>
 
 <h3>Thesis questions and goals</h3>
