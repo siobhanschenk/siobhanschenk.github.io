@@ -3,8 +3,10 @@
 <body>
 
 <h1>About me</h1>
+For more details about the topics below, see the dedictated section pages.
 
 <h2>Data Science and Open Data Access</h2>
+<p>A lot of research time and money is spent collecting data. However these data are often lost, not useable due to poor reccord keeping/being behind a paywall, or the analysis cannot be replicated. I am determined to change this though my own work and hope to help others do the same.</p>
 
 <h3>Formal Data Analysis Consulting Experience</h3>
 
@@ -12,7 +14,7 @@
 
 <li><strong> Data Analysis and Visualization GAA for the UBC Library:</strong> I provide one on one consultation for UBC students, staff, and Alumni who need help performing their data analysis in R and SPSS. Additionally, I develop and deliver workshops for the UBC Research Commons aimed at beginner R users. The workshops are designed to walk the participants though how the R programming language operates and how to take advantage of commonly used R packages.</li>
 
-<li><strong>Living Data Project Data Rescue Intern:</strong> I cleaned over 20 years of field data,which directly lead to an \<a href:'<https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4013>'\>open access publication in <em>Ecology</em>.</a></li>
+<li><strong>Living Data Project Data Rescue Intern:</strong> I cleaned over 20 years of field data,which directly lead to an <a href:'<https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4013>'>open access publication in <em>Ecology</em>.</a></li>
 
 <li><strong>Illumina Data Analyst for the publication </strong><a href='https://ami-journals.onlinelibrary.wiley.com/doi/10.1111/1462-2920.16582'>"Manipulation of the seagrass-associated microbiome reduces disease severity". </a></li>
 
@@ -44,15 +46,12 @@
 
 <h3>Publications</h3>
 
-See my <a href="https://scholar.google.com/citations?user=i7KHeTgAAAAJ&hl=en" target="_blank">Google Scholar page</a> for the most up to date list.
-
-<br>
-
-<h2>Community Engagement</h2>
+See my <a href="https://scholar.google.com/citations?user=i7KHeTgAAAAJ&hl=en" target="_blank">Google Scholar page</a> for the most up to date list. If you are not able to access a publication for any reason, please feel free to email me (sschenk at mail.ub.ca) and I will send it to you. 
 
 <br>
 
 <h2>Triathlon</h2>
+<p>I really enjoy being active and being outside. Triathlon is a great sport because it combines both of those! I have competed in the 2022 Vancouver Triathlon (Standard Distance), the 2023 Victoria half-Ironman, and I am on the <a href='https://recreation.ubc.ca/sport-clubs/triathlon-sc/'>2023-2024 UBC Triathlon Sports Club team</a>. </p>
 
 </body>
 
