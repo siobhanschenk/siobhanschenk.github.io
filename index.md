@@ -1,3 +1,9 @@
+---
+layout: default
+title: About me
+nav_order: 1
+---
+
 <html>
 
 <body>
