@@ -46,7 +46,7 @@ nav_order: 1
 
 <li>How do kelps aquire their microbiome in the wild and throughout the production process?</li>
 
-<li>Characterizing kelp diseases: Kelp diseases are already killing up to 20% of farmers crops yearly. Disease occurence is predicted to increase as the kelp industry grows nd as climate change worsens. I am currently working on characterizing <a href='https://hub.greenwave.org/community/topic/713/kelp-disease-pink-non-cyanobacteria-spots-on-spools/3' target="_blank">"pink spots on spools"</a>, but I am interested in any and all kelp diseases! Watch me <a href ="[https://www.youtube.com/watch?v=5zUeOMgrsFE](https://youtu.be/5zUeOMgrsFE?si=aS5v9bdpTtFk80SN)" target="_blank">talk about the "pink spots on spools"</a>. </li>
+<li>Characterizing kelp diseases: Kelp diseases are already killing up to 20% of farmers crops yearly. Disease occurence is predicted to increase as the kelp industry grows nd as climate change worsens. I am currently working on characterizing <a href='https://hub.greenwave.org/community/topic/713/kelp-disease-pink-non-cyanobacteria-spots-on-spools/3' target="_blank">"pink spots on spools"</a>, but I am interested in any and all kelp diseases! Watch me <a href ="https://youtu.be/5zUeOMgrsFE?si=4gJ-l2zu503dCU1Q" target="_blank">talk about the "pink spots on spools"</a>. </li>
 
 </ol>
 
