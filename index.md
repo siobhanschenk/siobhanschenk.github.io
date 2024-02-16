@@ -13,9 +13,9 @@
 
 <li><strong> Data Analysis and Visualization GAA for the UBC Library:</strong> I provide one on one consultation for UBC students, staff, and Alumni who need help performing their data analysis in R and SPSS. Additionally, I develop and deliver workshops for the UBC Research Commons aimed at beginner R users. The workshops are designed to walk the participants though how the R programming language operates and how to take advantage of commonly used R packages.</li>
 
-<li><strong>Living Data Project Data Rescue Intern:</strong> I cleaned over 20 years of field data,which directly lead to an <a href='https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4013'> open access publication in <em>Ecology</em>.</a></li>
+<li><strong>Living Data Project Data Rescue Intern:</strong> I cleaned over 20 years of field data,which directly lead to an <a href='https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4013' target="_blank"> open access publication in <em>Ecology</em>.</a></li>
 
-<li><strong>Illumina Data Analyst for the publication </strong><a href='https://ami-journals.onlinelibrary.wiley.com/doi/10.1111/1462-2920.16582'>"Manipulation of the seagrass-associated microbiome reduces disease severity". </a></li>
+<li><strong>Illumina Data Analyst for the publication </strong><a href='https://ami-journals.onlinelibrary.wiley.com/doi/10.1111/1462-2920.16582' target="_blank">"Manipulation of the seagrass-associated microbiome reduces disease severity". </a></li>
 
 </ol>
 
@@ -23,7 +23,7 @@
 
 <ol>
 
-<li><strong>Gathering baseline macoralgae data at an unban intertidal site</strong>: There is a lack of publicly accessible baseline data in ecology in general. My colleges and I are working to change this for our local macroalgae (big seaweeds) by conducting montly transect sampling at Stanley Park. We publish our data on an <a href='https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/IKGB6E'>open access database</a> and I developed an <a href='https://siobhanschenk.shinyapps.io/algae_transects_stanley_park/'>RShiny app</a> for easier data visualization.</li>
+<li><strong>Gathering baseline macoralgae data at an unban intertidal site</strong>: There is a lack of publicly accessible baseline data in ecology in general. My colleges and I are working to change this for our local macroalgae (big seaweeds) by conducting montly transect sampling at Stanley Park. We publish our data on an <a href='https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/IKGB6E' target="_blank">open access database</a> and I developed an <a href='https://siobhanschenk.shinyapps.io/algae_transects_stanley_park/' target="_blank">RShiny app</a> for easier data visualization.</li>
 
 </ol>
 
@@ -35,7 +35,7 @@
 
 <ol>
 
-<li>How does salinity alter the microbiome of sugar kelp (<em>Saccharina latissima</em> (sugar kelp)?</li>
+<li>How does salinity alter the microbiome of sugar kelp (<em>Saccharina latissima</em> (sugar kelp)? *Currently available as a pre-print on <a href='https://www.biorxiv.org/content/10.1101/2023.12.07.570704v1' target="_blank">BioRXiv</a>.</li>
 
 <li>Characterizing kelp diseases.</li>
 
@@ -50,7 +50,7 @@ See my <a href="https://scholar.google.com/citations?user=i7KHeTgAAAAJ&hl=en" ta
 <br>
 
 <h2>Triathlon</h2>
-<p>I really enjoy being active and being outside. Triathlon is a great sport because it combines both of those! I have competed in the 2022 Vancouver Triathlon (Standard Distance), the 2023 Victoria half-Ironman, and I am on the <a href='https://recreation.ubc.ca/sport-clubs/triathlon-sc/'>2023-2024 UBC Triathlon Sports Club team</a>. </p>
+<p>I really enjoy being active and being outside. Triathlon is a great sport because it combines both of those! I have competed in the 2022 Vancouver Triathlon (Standard Distance), the 2023 Victoria half-Ironman, and I am on the <a href='https://recreation.ubc.ca/sport-clubs/triathlon-sc/' target="_blank">2023-2024 UBC Triathlon Sports Club team</a>. </p>
 
 </body>
 
