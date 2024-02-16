@@ -32,15 +32,15 @@
 <p>Microbes, bacteria in particular, have been used as a toolkit to increase terrrestiral crop resistance to unfavourable conditions for a logn time now, but we have a much more limited understanding of the bacterial community of kelps and other marine life than in terrestrial systems.</p>
 <p>Through my PhD thesis work in the <a href = "https://www.zoology.ubc.ca/~parfrey/parfrey_lab/" target="_blank">Parfrey lab</a>, I am directly addressing this lack of understanding by conducting highly replicated lab and field studies and partnering with the kelp growing industry. I am passionate about chllenging established asusmptions about how kelps wil respond to climate change. I pull in other researchers datasets to stress test my own findings and work in R to produce hihgly replicable and accesible data analysis pipelines.</p>
 
-<h3>Thesis questions</h3>
+<h3>Thesis questions and goals</h3>
 
 <ol>
 
 <li>How does salinity alter the microbiome of sugar kelp (<em>Saccharina latissima</em> (sugar kelp)? *Currently available as a pre-print on <a href='https://www.biorxiv.org/content/10.1101/2023.12.07.570704v1' target="_blank">BioRXiv</a>.</li>
 
-<li>Characterizing kelp diseases.</li>
-
 <li>How do kelps aquire their microbiome in the wild and throughout the production process?</li>
+
+<li><strong>Characterizing kelp diseases:</strong> Kelp diseases are already killing up to 20% of farmers crops yearly. Disease occurence is predicted to increase as the kelp industry grows nd as climate change worsens. I am currently working on characterizing <a href='https://hub.greenwave.org/community/topic/713/kelp-disease-pink-non-cyanobacteria-spots-on-spools/3' target="_blank">pink spots on spools"</a>, but I am interested in any and all kelp diseases!</li>
 
 </ol>
 
