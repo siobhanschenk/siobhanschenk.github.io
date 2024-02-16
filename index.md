@@ -17,7 +17,7 @@ nav_order: 1
 
 <ol>
 
-<li><strong> Data Analysis and Visualization GAA for the UBC Library:</strong> I provide one on one consultation for UBC students, staff, and Alumni who need help performing their data analysis in R and SPSS. Additionally, I develop and deliver workshops for the UBC Research Commons aimed at beginner R users. The workshops are designed to walk the participants though how the R programming language operates and how to take advantage of commonly used R packages.</li>
+<li><strong> Data Analysis and Visualization GAA for the UBC Library:</strong> I provide one on one consultation for UBC students, staff, and Alumni who need help performing their data analysis in R and SPSS. Additionally, I develop and deliver workshops for the UBC Research Commons aimed at beginner R users.</li>
 
 <li><strong>Living Data Project Data Rescue Intern:</strong> I cleaned over 20 years of field data,which directly lead to an <a href='https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4013' target="_blank"> open access publication in <em>Ecology</em>.</a></li>
 
