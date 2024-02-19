@@ -1,9 +1,5 @@
+
 <html>
-<style>
-  h1 {
-  color: lightgrey;
-}
-</style>
 
 <body>
 
