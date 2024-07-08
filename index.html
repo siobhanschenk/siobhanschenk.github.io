@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Theme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showTab('tab-about')">About Me</a></li>
+                <li><a href="#" onclick="showTab('tab-science')">Science</a></li>
+                <li><a href="#" onclick="showTab('tab-non-science')">Non-Science</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="tab-about" class="tab-content active">Content for About Me</section>
+        <section id="tab-science" class="tab-content">Content for Science</section>
+        <section id="tab-non-science" class="tab-content">Content for Non-Science</section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
