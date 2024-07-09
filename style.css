@@ -5,13 +5,6 @@ body {
     margin: 0;
     padding: 0;
 }
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
 
 header {
     background-color: #333;
@@ -47,47 +40,6 @@ header nav ul li a:hover {
 
 .tab-content.active {
     display: block;
-}
-
-/* Carousel Styles */
-.carousel-container {
-    position: relative;
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    margin-top: 20px; /* Adjust as needed */
-}
-
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.carousel-image {
-    width: calc(100% / 4); /* Adjust size as needed */
-    height: auto;
-    object-fit: cover;
-    flex-shrink: 0;
-}
-
-.carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.carousel-button:first-of-type {
-    left: 0;
-}
-
-.carousel-button:last-of-type {
-    right: 0;
 }
 
 
