@@ -9,16 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
             event.preventDefault();
             const tabName = this.getAttribute('href').substring(1); // Get tab ID from href
             showTab(tabName);
-            history.pushState({}, '', '#' + tabName); // Update URL hash without reloading
+            window.location.hash = tabName; // Update URL hash
         });
     });
-
-    // Set interval for automatic carousel slide
-    setInterval(autoSlide, 5000);
 });
-
-let slideIndex = 0;
-const carousel = document.querySelector('.carousel');
 
 function showTab(tabName) {
     const tabs = document.querySelectorAll('.tab-content');
@@ -29,20 +23,4 @@ function showTab(tabName) {
             tab.classList.remove('active');
         }
     });
-}
-
-function moveCarousel(n) {
-    slideIndex += n;
-    showCarousel();
-}
-
-function showCarousel() {
-    const carouselWidth = carousel.clientWidth;
-    carousel.style.transform = `translateX(-${slideIndex * carouselWidth}px)`;
-}
-
-function autoSlide() {
-    moveCarousel(1);
-}
-
 }
