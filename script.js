@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             event.preventDefault();
             const tabName = this.getAttribute('href').substring(1); // Get tab ID from href
             showTab(tabName);
-            window.location.hash = tabName; // Update URL hash
+            history.pushState({}, '', '#' + tabName); // Update URL hash without reloading
         });
     });
 
@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 let slideIndex = 0;
-const carouselImages = document.querySelectorAll('.carousel-image');
 const carousel = document.querySelector('.carousel');
 
 function showTab(tabName) {
@@ -38,21 +37,12 @@ function moveCarousel(n) {
 }
 
 function showCarousel() {
-    let start = slideIndex * 4;
-    let end = start + 4;
-    if (start < 0) {
-        slideIndex = Math.ceil(carouselImages.length / 4) - 1;
-        start = slideIndex * 4;
-        end = carouselImages.length;
-    } else if (end > carouselImages.length) {
-        slideIndex = 0;
-        start = 0;
-        end = 4;
-    }
-
-    carousel.style.transform = `translateX(-${(slideIndex * 100)}%)`;
+    const carouselWidth = carousel.clientWidth;
+    carousel.style.transform = `translateX(-${slideIndex * carouselWidth}px)`;
 }
 
 function autoSlide() {
     moveCarousel(1);
+}
+
 }
