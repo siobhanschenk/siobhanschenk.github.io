@@ -1,3 +1,22 @@
+document.addEventListener("DOMContentLoaded", function () {
+    // Initially show the first tab
+    showTab('tab-about');
+
+    // Add event listeners to navigation links
+    const navLinks = document.querySelectorAll('header nav ul li a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const tabName = this.getAttribute('href').substring(1); // Get tab ID from href
+            showTab(tabName);
+            window.location.hash = tabName; // Update URL hash
+        });
+    });
+
+    // Set interval for automatic carousel slide
+    setInterval(autoSlide, 5000);
+});
+
 let slideIndex = 0;
 const carouselImages = document.querySelectorAll('.carousel-image');
 const carousel = document.querySelector('.carousel');
@@ -37,5 +56,3 @@ function showCarousel() {
 function autoSlide() {
     moveCarousel(1);
 }
-
-setInterval(autoSlide, 5000);
