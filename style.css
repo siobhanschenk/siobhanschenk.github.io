@@ -57,7 +57,7 @@ header nav ul li a:hover {
 }
 
 .carousel-image {
-    width: calc(80% / 4); /* Adjust size as needed */
+    width: calc(100% / 4); /* Adjust size as needed */
     height: auto;
     object-fit: cover;
     flex-shrink: 0;
