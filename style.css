@@ -1,43 +1,41 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
 header {
     background-color: #333;
-    color: white;
-    padding: 1rem;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
 }
 
-nav ul {
+header nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
-    margin-right: 1rem;
+    margin-right: 20px;
 }
 
-nav ul li a {
-    color: white;
+header nav ul li a {
+    color: #fff;
     text-decoration: none;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
     text-decoration: underline;
 }
 
-main {
-    padding: 2rem;
-}
-
+/* Tab Content Styles */
 .tab-content {
     display: none;
+    padding: 20px;
 }
 
 .tab-content.active {
@@ -50,6 +48,7 @@ main {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    margin-top: 20px; /* Adjust as needed */
 }
 
 .carousel {
@@ -58,8 +57,8 @@ main {
 }
 
 .carousel-image {
-    width: 100px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
+    width: calc(80% / 4); /* Adjust size as needed */
+    height: auto;
     object-fit: cover;
     flex-shrink: 0;
 }
@@ -73,6 +72,7 @@ main {
     border: none;
     padding: 10px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .carousel-button:first-of-type {
@@ -83,8 +83,5 @@ main {
     right: 0;
 }
 
-.tab-content {
-    display: none;
-}
 
 .tab-content.active
