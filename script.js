@@ -1,30 +1,41 @@
-let currentIndex = 0;
+let slideIndex = 0;
+const carouselImages = document.querySelectorAll('.carousel-image');
+const carousel = document.querySelector('.carousel');
 
-function moveCarousel(direction) {
-    const carousel = document.querySelector('.carousel');
-    const images = document.querySelectorAll('.carousel-image');
-    const totalImages = images.length;
-    const visibleImages = 4;
-
-    currentIndex += direction;
-
-    if (currentIndex < 0) {
-        currentIndex = totalImages - visibleImages;
-    } else if (currentIndex >= totalImages) {
-        currentIndex = 0;
-    }
-
-    const offset = currentIndex * (100 / visibleImages);
-    carousel.style.transform = `translateX(-${offset}%)`;
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    showTab('tab-about');  // Default tab to show
-});
-
-function showTab(tabId) {
+function showTab(tabName) {
     const tabs = document.querySelectorAll('.tab-content');
     tabs.forEach(tab => {
-        tab.classList.remove('active');
+        if (tab.id === tabName) {
+            tab.classList.add('active');
+        } else {
+            tab.classList.remove('active');
+        }
     });
+}
 
+function moveCarousel(n) {
+    slideIndex += n;
+    showCarousel();
+}
+
+function showCarousel() {
+    let start = slideIndex * 4;
+    let end = start + 4;
+    if (start < 0) {
+        slideIndex = Math.ceil(carouselImages.length / 4) - 1;
+        start = slideIndex * 4;
+        end = carouselImages.length;
+    } else if (end > carouselImages.length) {
+        slideIndex = 0;
+        start = 0;
+        end = 4;
+    }
+
+    carousel.style.transform = `translateX(-${(slideIndex * 100)}%)`;
+}
+
+function autoSlide() {
+    moveCarousel(1);
+}
+
+setInterval(autoSlide, 5000);
