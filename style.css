@@ -1,46 +1,45 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
     background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    color: white;
+    padding: 1rem;
     text-align: center;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
-header nav ul li a {
-    color: #fff;
+nav ul li a {
+    color: white;
     text-decoration: none;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Tab Content Styles */
+main {
+    padding: 2rem;
+}
+
 .tab-content {
     display: none;
-    padding: 20px;
 }
 
 .tab-content.active {
     display: block;
 }
-
-
-.tab-content.active
