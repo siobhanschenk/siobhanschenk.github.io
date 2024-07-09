@@ -43,3 +43,48 @@ main {
 .tab-content.active {
     display: block;
 }
+
+/* Carousel Styles */
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-button:first-of-type {
+    left: 0;
+}
+
+.carousel-button:last-of-type {
+    right: 0;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active
