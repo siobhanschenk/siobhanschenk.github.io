@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-function showTab(tabName) {
+function showTab(tabId) {
     const tabs = document.querySelectorAll('.tab-content');
     tabs.forEach(tab => {
-        if (tab.id === tabName) {
+        if (tab.id === tabId) {
             tab.classList.add('active');
         } else {
             tab.classList.remove('active');
