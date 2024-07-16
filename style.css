@@ -68,16 +68,25 @@ header nav ul li a:hover {
     }
 }
 
-/* Image Pair Styles */
-.image-pair {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
-.image-pair img {
-    height: auto;
-    width: 45%; /* Adjust width for smaller size */
-    margin: 0 10px; /* Center the images */
-    object-fit: cover;
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
