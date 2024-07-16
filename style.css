@@ -68,3 +68,16 @@ header nav ul li a:hover {
     }
 }
 
+/* Image Pair Styles */
+.image-pair {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-pair img {
+    height: auto;
+    max-width: 49%;
+    margin: 0 0.5%;
+    object-fit: cover;
+}
