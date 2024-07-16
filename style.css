@@ -4,6 +4,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -11,6 +16,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    width: 100%;
 }
 
 header nav ul {
@@ -36,7 +42,25 @@ header nav ul li a:hover {
 .tab-content {
     display: none;
     padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 90%;
+    max-width: 800px; /* Adjust width for desktop view */
 }
+
+.tab-content.active {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .tab-content {
+        width: 100%;
+        box-shadow: none;
+        margin-top: 0;
+    }
+}
+
 
 .tab-content.active {
     display: block;
