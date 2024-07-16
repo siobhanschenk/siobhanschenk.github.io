@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    font-size: 1.25rem; /* Main body text size increased */
+    font-size: 1.2rem; /* Main body text size increased */
 }
 
 header {
@@ -32,7 +32,7 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.5rem; /* Increase nav text size */
+    font-size: 1.4rem; /* Increase nav text size */
 }
 
 header nav ul li a:hover {
