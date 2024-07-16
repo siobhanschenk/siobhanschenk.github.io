@@ -77,7 +77,7 @@ header nav ul li a:hover {
 
 .image-pair img {
     height: auto;
-    max-width: 49%;
-    margin: 0 0.5%;
+    width: 45%; /* Adjust width for smaller size */
+    margin: 0 2.5%; /* Center the images */
     object-fit: cover;
 }
