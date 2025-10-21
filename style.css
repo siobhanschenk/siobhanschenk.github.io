@@ -1,92 +1,191 @@
-/* General Styles */
+/* --- GLOBAL STYLES --- */
 body {
-    font-family: Tahoma, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    font-size: 1.2rem; /* Main body text size increased */
+  font-family: "Inter", Tahoma, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #333;
+  background-color: #f8f9fa;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    width: 100%;
+/* --- HERO SECTION --- */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-header nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+.hero-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  filter: brightness(60%);
 }
 
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.4rem; /* Increase nav text size */
+.hero-text h1 {
+  font-size: 2.2rem;
+  margin: 0.2em 0;
 }
 
-header nav ul li a:hover {
-    text-decoration: underline;
+.hero-text p {
+  font-size: 1rem;
+  opacity: 0.9;
 }
 
-/* Tab Content Styles */
-.tab-content {
-    display: none;
-    padding: 20px;
-    margin: 20px auto;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 800px; /* Adjust width for desktop view */
+/* --- NAVBAR --- */
+.navbar {
+  background-color: #222;
 }
 
-.tab-content.active {
-    display: block;
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 1em;
 }
 
-@media (max-width: 768px) {
-    .tab-content {
-        width: 95%;
-        margin: 10px auto;
-        box-shadow: none;
-    }
+.nav-logo {
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
 }
 
-@media (min-width: 769px) {
-    .tab-content {
-        width: 60%; /* More narrow width for desktop */
-    }
+.hamburger {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: block;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+#nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+  background-color: #222;
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.row {
+#nav-links.active {
   display: flex;
 }
 
-.column {
-  flex: 33.33%;
-  padding: 5px;
+#nav-links li {
+  border-top: 1px solid #333;
+}
+
+#nav-links a {
+  display: block;
+  color: white;
+  padding: 0.8em 1em;
+  text-decoration: none;
+}
+
+#nav-links a:hover {
+  background-color: #444;
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  #nav-links {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    background: none;
+  }
+
+  #nav-links li {
+    border: none;
+    margin: 0 15px;
+  }
+
+  #nav-links a {
+    padding: 0.5em;
+  }
+
+  #nav-links a:hover {
+    background: none;
+    color: #66c2ff;
+  }
+}
+
+main {
+  padding: 20px;
+}
+
+.tab-content {
+  display: none;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* --- CAROUSEL --- */
+.carousel {
+  overflow: hidden;
+  position: relative;
+  margin-top: 30px;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.carousel img {
+  width: 24%;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel:hover .carousel-track {
+  animation-play-state: paused;
+}
+
+/* --- FOOTER --- */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #66c2ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
